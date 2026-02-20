@@ -26,10 +26,12 @@ export default defineConfig([
         {
           argsIgnorePattern: '^_',
           varsIgnorePattern: '^_',
+          caughtErrorsIgnorePattern: '^_',
         },
       ],
       'require-await': 'error',
       '@typescript-eslint/require-await': 'error',
+      '@typescript-eslint/no-unused-expressions': 'error',
     },
   },
 ])
